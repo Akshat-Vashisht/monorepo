@@ -1,0 +1,72 @@
+{
+    "schemaId": "ongoing",
+    "description": "Ongoing responsibilities review",
+    "type": "VerticalLayout",
+    "elements": [
+      {
+        "type": "Control",
+        "scope": "#/properties/nonProjectResponsibilities",
+        "label": "What responsibilities do you have that aren't project based?"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/companyGoals",
+        "label": "What company goal do these responsibilities work toward?"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/performedResponsibilitiesScore",
+        "label": "Over the last few weeks, have you performed your responsibilites as expected?"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/clearExpectationsScore",
+        "label": "Are expectations for you responsibilities clear?",
+        "options": {
+            "startHint": "Mud",
+            "endHint": "Crystal"
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/errorsScore",
+        "label": "Have there been any errors you have made as part of your responsibilities in the last few weeks?",
+        "options": {
+            "startHint": "A lot",
+            "endHint": "No errors"
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/managerInvolvementScore",
+        "label": "How involved has your manager been in your responsibilities in the last few weeks?",
+        "options": {
+            "startHint": "Not involved",
+            "endHint": "Constantly involved"
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/managerInvolvementNeedScore",
+        "label": "Will you need your manager to be involved in the future for these responsibilities?",
+        "options": {
+            "startHint": "Not involved",
+            "endHint": "Constantly involved"
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/managerExcessiveScore",
+        "label": "Did your manager involve themselves in your responsibilities too much in the last few weeks?",
+        "options": {
+            "startHint": "Not enough",
+            "endHint": "Way too much"
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/areasToImprove",
+        "label": "What areas could you improve on?"
+      }
+    ]
+  }

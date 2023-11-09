@@ -1,0 +1,79 @@
+{
+    "schemaId": 1,
+    "description": "Mid-Project review",
+    "type": "VerticalLayout",
+    "elements": [
+      {
+        "type": "Control",
+        "scope": "#/properties/projectName"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/projectDescription",
+        "options": {
+          "multi": true
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/companyGoals"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/projectSize"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/projectValuableScore",
+        "label": "How valuable will this project be to the company or your team?"
+      },
+      {
+        "type": "HorizontalLayout",
+        "elements": [
+          {
+            "type": "Control",
+            "scope": "#/properties/hadDeadline"
+          }
+        ]
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/helpfulScore",
+        "options": {
+            "startHint": "Not close",
+            "endHint": "Exactly what was needed"
+        }
+      },
+      {
+        "type": "Control",
+        "label": "Moving Forward, are expectations for the project clear?",
+        "scope": "#/properties/clearExpectationsScore",
+        "options": {
+            "startHint": "Mud",
+            "endHint": "Crystal"
+        }
+      },
+      {
+        "type": "Control",
+        "label": "How involved has your manager been in the project?",
+        "scope": "#/properties/managerInvolvementScore",
+        "options": {
+            "startHint": "Not at all",
+            "endHint": "Exactly"
+        }
+      },
+      {
+        "type": "Control",
+        "label": "Has your manager involved themselves too much?",
+        "scope": "#/properties/managerExcessiveScore",
+        "options": {
+            "startHint": "Not involved",
+            "endHint": "Constantly involved"
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/completionPercentage"
+      }
+    ]
+  }

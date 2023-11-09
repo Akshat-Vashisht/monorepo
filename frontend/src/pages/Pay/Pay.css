@@ -1,0 +1,53 @@
+.pay-container {
+    color: #04144C;
+}
+
+.pay-pay-datapoint {
+    display: flex;
+    flex-grow: 1;
+    margin-bottom: 32px;
+}
+
+.pay-pay-datapoint h3 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    color: #04144C;
+}
+
+.pay-pay-datapoint div {
+    flex-grow: 1;
+    text-align: center;
+    justify-content: center;
+}
+
+.pay-pay-datapoint p {
+    font-size: 16px;
+    color: #04144C;
+    margin: 0;
+    font-weight: 600;
+}
+
+.pay-pay-datapoint-header {
+    width: 25%;
+}
+
+.pay-pay-datapoint-data {
+    width: 50%;
+    padding: 12px;
+}
+
+.pay-pay-datapoint-helper {
+    width: 25%;
+}
+
+.pay-annual-base {
+    font-size: 36px;
+    font-weight: 700;
+    color: #04144C;
+}
+
+.pay-pay-datatpoint-variable-comp {
+    display: flex;
+    flex-direction: row;
+}

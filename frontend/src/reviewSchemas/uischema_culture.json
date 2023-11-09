@@ -1,0 +1,183 @@
+{
+    "schemaId": "culture",
+    "description": "Culture questions",
+    "type": "VerticalLayout",
+    "elements": [
+        {
+        "type": "Control",
+            "scope": "#/properties/managerSucceedScore",
+            "label": "My manager wants to see me grow and succeed?"
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/managerSamePageScore",
+            "label": "My manager and I are on the same page when it comes to my performance?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/managerFairScore",
+            "label": "My manager is fair?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/managerRelationshipScore",
+            "label": "My relationship with my manager is productive and positive?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/managerLikeMeScore",
+            "label": "My manager likes me?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/managerILikeScore",
+            "label": "I like my manager?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/workFriendsScore",
+            "label": "I have friends at work?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/companyProgressingScore",
+            "label": "I trust the company is progressing?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/clearCompanyVisionScore",
+            "label": "There is a clear company vision that I understand?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/criticismWelcomeScore",
+            "label": "Constructive criticism is welcomed and addressed?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/companyTransparentScore",
+            "label": "My company is transparent about things that matter?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/companyCaresMeScore",
+            "label": "My company cares about me?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/companyProudScore",
+            "label": "I am proud to work at my company?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/recommendFriendsScore",
+            "label": "I would recommend working here to friends?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/leadershipTrustScore",
+            "label": "I trust the executive leadership to do what is best for the company and its employees?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/competitivePayScore",
+            "label": "My pay is competitive?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/benefitsGoodScore",
+            "label": "My benefits are good and are as good as or better than I expected?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/benefitsValuableScore",
+            "label": "The benefits the company gives me are valuable?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/hardWorkersScore",
+            "label": "I work with hard workers?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/smartCoworkersScore",
+            "label": "I work with smart people?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/smartLeadersScore",
+            "label": "I work for smart people?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/companyDidMoreScore",
+            "label": "I wish my company did more for its employees?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/stillCompanyOneYearScore",
+            "label": "I can see myself working at the company in a year?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/stillCompanyTwoYearScore",
+            "label": "I can see myself working at the company in 2 years?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/stillCompanyFiveYearScore",
+            "label": "I can see myself working at the company in 5 years?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/promotedNewSkillsScore",
+            "label": "I feel like I can get promoted if I develop new skills?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/promotedPerformWellScore",
+            "label": "I feel like I will get promoted if I perform well?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/leaveTeamScore",
+            "label": "I don’t think I want to leave my team?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/leaveCompanyScore",
+            "label": "I don’t think I want to leave my company?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/financialIncentiveScore",
+            "label": "There is a monetary incentive for working hard and it is fair?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/succeedTogetherScore",
+            "label": "If the company succeeds?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/likeWorkingScore",
+            "label": "I like coming to work?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/workImportanceScore",
+            "label": "The work I do is important?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/workUsefulScore",
+            "label": "The work I do is used /useful to the company?" 
+        },
+        {
+        "type": "Control",
+            "scope": "#/properties/impressedScore",
+            "label": "Who do you work with that has impressed you lately?" 
+        }
+    
+    ]
+}

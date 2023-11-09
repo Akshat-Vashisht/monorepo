@@ -1,0 +1,96 @@
+{
+    "schemaId": 3,
+    "description": "End of project review",
+    "type": "VerticalLayout",
+    "elements": [
+      {
+        "type": "Control",
+        "scope": "#/properties/projectName"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/projectDescription",
+        "options": {
+          "multi": true
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/projectSize"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/companyGoals"
+      },
+      {
+        "type": "HorizontalLayout",
+        "elements": [
+          {
+            "type": "Control",
+            "scope": "#/properties/hadDeadline"
+          }
+        ]
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/onSchedule"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/matchProjectNeedScore",
+        "options": {
+            "startHint": "Not close",
+            "endHint": "Exactly what was needed"
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/clearExpectationsScore",
+        "label": "Were expectations for the project clear?",
+        "options": {
+            "startHint": "Mud",
+            "endHint": "Crystal"
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/errorsScore",
+        "label": "Were there errors found after the project was completed?",
+        "options": {
+            "startHint": "A lot",
+            "endHint": "No errors"
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/managerInvolvementScore",
+        "label": "How involved was your manager in the project?",
+        "options": {
+            "startHint": "Not involved",
+            "endHint": "Constantly involved"
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/managerInvolvementNeedScore",
+        "label": "If you completed the project again, how involved would your manager need to be?",
+        "options": {
+            "startHint": "Not involved",
+            "endHint": "Constantly involved"
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/managerExcessiveScore",
+        "label": "Did your manager involve themselves too much?",
+        "options": {
+            "startHint": "Not enough",
+            "endHint": "Way too much"
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/areasToImprove"
+      }
+    ]
+  }

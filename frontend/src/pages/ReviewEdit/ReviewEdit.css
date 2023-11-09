@@ -1,0 +1,17 @@
+.review-edit-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.review-edit-container > div {
+    margin-bottom: 16px;
+}
+
+.review-edit-submit-button {
+    height: 32px;
+    margin-top: 32px;
+}
+
+.review-edit-submit-button:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,295 @@
+{
+    "type": "object",
+    "properties": {
+      "projectName": {
+        "title": "Project name",
+        "type": "string",
+        "minLength": 1
+      },
+      "projectDescription": {
+        "title": "Brief description of the project",
+        "type": "string"
+      },
+      "companyGoals": {
+        "title": "What company goal does this project work towards?",
+        "type": "string"
+      },
+      "projectSize": {
+        "title": "How big of a project is this?",
+        "type": "string",
+        "enum": ["Existential", "Large", "Medium", "Small"]
+      },
+      "hoursSpent": {
+        "title": "How many hours did this project take?",
+        "type": "number"
+      },
+      "expectedHoursSpent": {
+        "title": "How many hours should this project have taken?",
+        "type": "number"
+      },
+      "onSchedule": {
+        "title": "Was the project completed on or ahead of schedule?",
+        "type": "boolean"
+      },
+      "offScheduleReason": {
+        "title": "What prevented the project from being completed on time?",
+        "type": "string"
+      },
+      "outsideEmployeeControl": {
+        "title": "Was project late due to factors outside of the employee's control?",
+        "type": "boolean"
+      },
+      "matchProjectNeedScore": {
+        "title": "How closely did the project you completed match what was needed?",
+        "type": "number"
+      },
+      "employeeMatchProjectNeedScore": {
+        "title": "How closely did the project the employee completed match what was needed?",
+        "type": "number"
+      },
+      "hadDeadline": {
+        "title": "Did the project have a deadline?",
+        "type": "boolean"
+      },
+      "deadlineDate": {
+        "title": "What was the deadline?",
+        "type": "string",
+        "format": "date"
+      },
+      "managerInvolvementScore": {
+        "title": "How involved was your manager?",
+        "type": "number"
+      },
+      "managerInvolvementNeedScore": {
+        "type": "number"
+      },
+      "selfInvolvementScore": {
+        "title": "How involved were you in the project",
+        "type": "number"
+      },
+      "selfInvolvementNeedScore": {
+        "title": "If the employee completed the project again, how involved would you need to be?",
+        "type": "number"
+      },
+      "exceptionalJob": {
+        "title": "Did the employee do an exceptionally good job?",
+        "type": "boolean"
+      },
+      "errorsScore": {
+        "type": "number"
+      },
+      "badJob": {
+        "title": "Did the employee do a bad job?",
+        "type": "boolean"
+      },
+      "withCoworkersScore": {
+        "title": "How well did the employee work with coworkers on this project?",
+        "type": "number"
+      },
+      "employeeSubstituteScore": {
+        "title": "How hard would it be to find or hire another employee to do this project?",
+        "type": "number"
+      },
+      "clearExpectationsScore": {
+        "title": "Are expectations for the project clear?",
+        "type": "integer"
+      },
+      "helpfulScore": {
+        "title": "Has the work you have been doing been helpful in meeting company needs for the project?",
+        "type": "integer"
+      },
+      "managerExcessiveScore": {
+        "title": "Did your manager involve themselves too much",
+        "type": "integer"
+      },
+      "withCoworkers": {
+        "title": "Did you work with coworkers?",
+        "type": "boolean",
+        "format": "binary" 
+      },
+      "coworkerId": {
+        "title": "Select coworker",
+        "type": "string",
+        "enum": ["Monte", "Spencer", "John", "Stephen"]
+      },
+      "coworkerPerformanceScore": {
+        "title": "How did your coworker perform?",
+        "type": "integer"
+      },
+      "skillsNeeded": {
+        "title": "What skills have you needed or will you need on this project?",
+        "type": "string",
+        "enum": ["Math", "Coding", "People", "Knife", "Ninja"]
+      },
+      "skillScore": {
+        "title": "What level of proficiency did you need for the skills selected?",
+        "type": "integer"
+      }, 
+      "areasToImprove": {
+        "title": "What areas can you improve on?",
+        "type": "string",
+        "enum": [
+          "On time",
+          "Procrastination",
+          "Attention to detail",
+          "Communicating with manager",
+          "Communicating with coworkers",
+          "Trusting coworkers",
+          "Trusting manager",
+          "Proficiency in skills needed",
+          "Building trust from your manager to you",
+          "Confidence",
+          "Setting clear expectations",
+          "Carefully follow instructions",
+          "Anticipating company needs",
+          "Finishing the last 10% of the project",
+          "There is always room to get better but in the most humble way possible; I kinda crushed this project"
+        ]
+      },
+      "completionPercentage": {
+        "title": "How close is this project to being finished",
+        "type": "number",
+        "minimum": 0,
+        "maximum": 100,
+        "default": 50
+      },
+      "projectValuableScore": {
+        "type": "number"
+      },
+      "managerSucceedScore": {
+        "type": "number"
+      },
+     "managerSamePageScore": {
+        "type": "number"
+      },
+     "managerFairScore": {
+        "type": "number"
+      },
+     "managerRelationshipScore": {
+        "type": "number"
+      },
+     "managerLikeMeScore": {
+        "type": "number"
+      },
+     "managerILikeScore": {
+        "type": "number"
+      },
+     "workFriendsScore": {
+        "type": "number"
+      },
+     "companyProgressingScore": {
+        "type": "number"
+      },
+     "clearCompanyVisionScore": {
+        "type": "number"
+      },
+     "criticismWelcomeScore": {
+        "type": "number"
+      },
+     "companyTransparentScore": {
+        "type": "number"
+      },
+     "companyCaresMeScore": {
+        "type": "number"
+      },
+     "companyProudScore": {
+        "type": "number"
+      },
+     "recommendFriendsScore": {
+        "type": "number"
+      },
+     "leadershipTrustScore": {
+        "type": "number"
+      },
+     "competitivePayScore": {
+        "type": "number"
+      },
+     "benefitsGoodScore": {
+        "type": "number"
+      },
+     "benefitsValuableScore": {
+        "type": "number"
+      },
+     "hadWorkersScore": {
+        "type": "number"
+      },
+     "smartCoworkersScore": {
+        "type": "number"
+      },
+     "smartLeadersScore": {
+        "type": "number"
+      },
+     "companyDidMoreScore": {
+        "type": "number"
+      },
+     "stillCompanyOneYearScore": {
+        "type": "number"
+      },
+     "stilCompanyTwoYearScore": {
+        "type": "number"
+      },
+     "stillCompanyFiveYearScore": {
+        "type": "number"
+      },
+     "promotedNewSkillsScore": {
+        "type": "number"
+      },
+     "promotedPerformWellScore": {
+        "type": "number"
+      },
+     "leaveTeamScore": {
+        "type": "number"
+      },
+     "leaveCompanyScore": {
+        "type": "number"
+      },
+     "financialIncentiveScore": {
+        "type": "number"
+      },
+     "succeedTogetherScore": {
+        "type": "number"
+      },
+     "likeWorkingScore": {
+        "type": "number"
+      },
+     "workImportanceScore": {
+        "type": "number"
+      },
+     "workUsefulScore": {
+        "type": "number"
+      },
+     "impressedScore": {
+        "type": "number"
+      },
+      "managerValuableScore": {
+        "type": "number"
+      },
+      "managerEmployeeMeetDeadline": {
+        "type": "boolean"
+      },
+      "managerEmployeeMeetDeadlineReason": {
+        "type": "string"
+      },
+      "managerExpectationsChanged": {
+        "type": "boolean"
+      },
+      "managerEmployeeWorkHelpfulScore": {
+        "type": "number"
+      },
+      "managerExpectationsClearScore": {
+        "type": "number"
+      },
+      "manageEmployeeWithCoworkersScore": {
+        "type": "number"
+      },
+      "managerCompletionPercentageAccurate": {
+        "type": "boolean"
+      },
+      "nonProjectResponsibilities": {
+        "type": "string"
+      },
+      "performedResponsibilitiesScore": {
+        "type": "number"
+      }
+    }  
+  }

@@ -1,0 +1,32 @@
+.reviews-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews-container > div {
+    margin-bottom: 16px;
+}
+
+.reviews-header {
+    display: flex;
+}
+
+/* .reviews-header > * {
+    flex-grow: 1;
+} */
+
+.reviews-add {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 50%;
+}
+
+.reviews-add:hover {
+    cursor: pointer;
+}
+
+.reviews-cards-container {
+    flex-wrap: wrap;
+    display: flex;
+}

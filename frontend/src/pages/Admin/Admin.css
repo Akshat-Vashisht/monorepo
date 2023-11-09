@@ -1,0 +1,59 @@
+.admin-container {
+    display: flex;
+    flex-grow: 1;
+}
+
+.admin-employees-table {
+    border-collapse: collapse;
+}
+
+.admin-employees-table th {
+    text-align: start;
+}
+
+.admin-employees-table-row:hover {
+    cursor: pointer;
+}
+
+.admin-employees-table-row > td {
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.admin-employees-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.account-users-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    padding: 16px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.account-users-card-header {
+    display: flex;
+}
+
+.account-users-card-header h2 {
+    flex-grow: 1;
+}
+
+.account-user-row {
+    display: flex;
+}
+
+.account-upload-data-buttons {
+    display: flex;
+}
+
+.account-upload-data-button {
+    flex-grow: 1;
+    margin: 16px;
+}
+
+

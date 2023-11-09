@@ -1,0 +1,123 @@
+{
+    "schemaId": "midproj-manager",
+    "description": "Direct report midproject review",
+    "type": "VerticalLayout",
+    "elements": [
+      {
+        "type": "Control",
+        "scope": "#/properties/projectName"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/projectDescription",
+        "options": {
+          "multi": true
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/projectSize"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/managerValuableScore",
+        "label": "How valuable will this project be to the company or your team?"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/hadDeadline",
+        "label": "Does the project have a deadline?"
+      },
+
+      {
+        "type": "HorizontalLayout",
+        "elements": [
+          {
+            "type": "Control",
+            "scope": "#/properties/managerEmployeeMeetDeadline",
+            "label": "Do you think the employee will meet it?"
+          },
+          {
+            "type": "Control",
+            "scope": "#/properties/managerEmployeeMeetDeadlineReason",
+            "rule": {
+                "effect": "HIDE",
+                "condition": {
+                  "type": "LEAF",
+                  "scope": "#/properties/managerEmployeeMeetDeadline",
+                  "expectedValue": false
+                }
+            }
+          }
+        ]
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/managerExpectationsChanged",
+        "options": {
+            "startHint": "Not close",
+            "endHint": "Exactly what was needed"
+        },
+        "label": "Have the expectations for the project changed since you began it?"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/managerEmployeeWorkHelpfulScore",
+        "options": {
+            "startHint": "Not really",
+            "endHint": "Very"
+        },
+        "label": "Has the employee’s work been helpful in meeting company needs for the project?"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/managerExpectationsClearScore",
+        "label": "Are the expectations for this project clear?",
+        "options": {
+            "startHint": "Mud",
+            "endHint": "Crystal"
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/selfInvolvementScore",
+        "options": {
+            "startHint": "Not involved",
+            "endHint": "Constantly involved"
+        },
+        "label": "How involved have you been in the project?"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/managerEmployeeWithCoworkersScore",
+        "options": {
+            "startHint": "Not involved",
+            "endHint": "Constantly involved"
+        },
+        "label": "How well has the employee been working with coworkers on this project?"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/exceptionalJob",
+        "label": "Has the employee been doing an exceptionally good job?"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/badJob",
+        "label": "Has the employee been doing a bad job?"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/employeeSubstituteScore",
+        "options": {
+            "startHint": "Doable",
+            "endHint": "Probably can't"
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/managerCompletionPercentageAccurate",
+        "label": "Employee said the project was this percentage complete, is this accurate?"
+      }
+    ]
+  }

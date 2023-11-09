@@ -1,0 +1,71 @@
+{
+    "schemaId": "ongoing_manager",
+    "description": "Ongoing responsibilities review",
+    "type": "VerticalLayout",
+    "elements": [
+      {
+        "type": "Control",
+        "scope": "#/properties/nonProjectResponsibilities",
+        "label": "Ongoing responsibilities as listed by employee"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/companyGoals",
+        "label": "What company goal do these responsibilities work toward?"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/performedResponsibilitiesScore",
+        "label": "Over the last few weeks, how well has the employee performed these responsibilities?"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/clearExpectationsScore",
+        "label": "Are expectations for these responsibilities clear?",
+        "options": {
+            "startHint": "Mud",
+            "endHint": "Crystal"
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/errorsScore",
+        "label": "Have there been any errors the employee has made as part of their responsibilities in the last few weeks?",
+        "options": {
+            "startHint": "A lot",
+            "endHint": "No errors"
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/managerInvolvementScore",
+        "label": "How involved have you, as a manager, been in the employee's responsibilities in the last few weeks?",
+        "options": {
+            "startHint": "Not involved",
+            "endHint": "Constantly involved"
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/managerInvolvementNeedScore",
+        "label": "Will you, as a manager, need to be more involved in these responsibilities in the future to ensure they are done correctly?",
+        "options": {
+            "startHint": "Not involved",
+            "endHint": "Constantly involved"
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/employeeSubstituteScore",
+        "options": {
+            "startHint": "Doable",
+            "endHint": "Probably can't"
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/areasToImprove",
+        "label": "What areas could the employee improve on?"
+      }
+    ]
+  }

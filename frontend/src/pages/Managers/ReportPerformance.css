@@ -1,0 +1,33 @@
+.report-performance-container {
+    display: flex;
+}
+
+.report-performance-name h3{
+    margin-bottom: 0;
+    width: 200px;
+}
+
+.report-performance-score {
+    display: flex;
+    flex-grow: 1;
+}
+
+.report-performance-score table {
+    width: 100%;
+}
+
+.report-performance-score td {
+    font-weight: 700;
+}
+
+.report-performance-score-bar {
+}
+
+.report-performance-reviews {
+    text-align: center;
+
+}
+
+.report-performance-reviews-circles {
+    display: flex;
+}

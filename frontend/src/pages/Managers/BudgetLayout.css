@@ -1,0 +1,23 @@
+.budget-layout-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.budget-layout-budget-progress {
+    display: flex;
+}
+
+.budget-layout-insert-adjustment-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.budget-layout-button {
+    margin: 8px;
+}
+
+.comp-planning-export {
+    display: flex;
+    justify-content: flex-end;
+}

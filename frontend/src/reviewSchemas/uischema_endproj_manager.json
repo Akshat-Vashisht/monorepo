@@ -1,0 +1,103 @@
+{
+    "schemaId": 2,
+    "description": "Direct report review",
+    "type": "VerticalLayout",
+    "elements": [
+      {
+        "type": "Control",
+        "scope": "#/properties/projectName"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/projectDescription",
+        "options": {
+          "multi": true
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/projectSize"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/expectedHoursSpent"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/hadDeadline"
+      },
+      {
+        "type": "HorizontalLayout",
+        "elements": [
+          {
+            "type": "Control",
+            "scope": "#/properties/onSchedule"
+          },
+          {
+            "type": "Control",
+            "scope": "#/properties/outsideEmployeeControl",
+            "rule": {
+                "effect": "HIDE",
+                "condition": {
+                  "type": "LEAF",
+                  "scope": "#/properties/onSchedule",
+                  "expectedValue": true
+                }
+            }
+          }
+        ]
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/matchProjectNeedScore",
+        "options": {
+            "startHint": "Not close",
+            "endHint": "Exactly what was needed"
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/clearExpectationsScore",
+        "options": {
+            "startHint": "Mud",
+            "endHint": "Crystal"
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/selfInvolvementScore",
+        "options": {
+            "startHint": "Not involved",
+            "endHint": "Constantly involved"
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/selfInvolvementNeedScore",
+        "options": {
+            "startHint": "Not involved",
+            "endHint": "Constantly involved"
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/exceptionalJob"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/badJob"
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/employeeSubstituteScore",
+        "options": {
+            "startHint": "Doable",
+            "endHint": "Probably can't"
+        }
+      },
+      {
+        "type": "Control",
+        "scope": "#/properties/areasToImprove"
+      }
+    ]
+  }

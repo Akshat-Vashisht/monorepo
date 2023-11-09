@@ -1,0 +1,94 @@
+.home-container {
+    display: flex;
+    padding-top: 32px;
+    flex-direction: column;
+}
+
+.home-row {
+    display: flex;
+    flex-grow: 1;
+    margin-bottom: 64px;
+}
+
+.home-circle-table {
+    border-collapse: collapse;
+    border: none;
+}
+
+.home-circle-table td {
+    border: 1px solid #041F4C;
+}
+
+.home-circle-table tr:first-child td {
+    border-top: none;
+}
+
+.home-circle-table tr:last-child td {
+    border-bottom: none;
+}
+
+.home-circle-table tr td:first-child {
+    border-left: none;
+}
+
+.home-circle-table tr td:last-child {
+    border-right: none;
+}
+
+.top-and-bottom-border {
+    border-top: 2px solid #041F4C;
+    border-bottom: 2px solid #041F4C;
+
+}
+
+.home-career-table {
+    font-size: 48px;
+}
+
+.home-career-table td {
+    text-align: center;
+    flex-grow: 1;
+    padding: 12px 0;
+}
+
+.home-career-table tr {
+    display: flex;
+}
+
+.home-career-table-dark {
+    color: #041F4C
+}
+
+.home-career-table-light, .home-career-table-light path {
+    color: #75B2E2;
+    stroke: #75B2E2;
+}
+
+.home-improvement-bars {
+    rotate: -90deg;
+}
+
+.hib-s1 {
+    width: 60px;
+}
+
+.hib-s2 {
+    width: 100px;
+}
+
+.hib-s3 {
+    width: 140px;
+}
+
+.hib-s4 {
+    width: 180px;
+}
+
+.hib-s5 {
+    width: 220px;
+}
+
+.hib-s6 {
+    width: 260px;
+}
+

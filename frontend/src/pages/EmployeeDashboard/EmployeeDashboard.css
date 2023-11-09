@@ -1,0 +1,30 @@
+.employee-dashboard-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.employee-dashboard-raise {
+    display: flex;
+}
+
+.employee-dashboard-raise-text {
+    width: 50%;
+    text-align: center;
+}
+
+.employee-dashboard-rc {
+    display: flex;
+}
+
+.employee-dashboard-skills-table {
+    width: 100%;
+}
+
+.employee-dashboard-skills-table td:first-child {
+    width: 40%;
+}
+
+.employee-dashboard-aoi-header {
+    display: flex;
+    justify-content: center;
+}
