@@ -1,0 +1,31 @@
+generatorOptions:
+  disableNameSuffixHash: true
+
+namespace: pago
+
+commonAnnotations:
+  reloader.stakater.com/auto: "true"
+
+resources:
+  - ../../../base/mysql
+
+configMapGenerator:
+  - name: pago-mysql-configmap
+    files:
+      - config/init.sql
+
+secretGenerator:
+  - name: pago-mysql-secret
+    envs:
+      - config/.env.secret
+
+patches:
+  - path: patch.yml
+    target:
+      kind: StatefulSet
+      name: pago-mysql
+
+# Remove this line if you are not using device with Apple Silicon M1
+images:
+  - name: pago-mysql
+    newName: docker.io/library/mysql

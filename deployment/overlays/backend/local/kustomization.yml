@@ -1,0 +1,28 @@
+generatorOptions:
+  disableNameSuffixHash: true
+
+namespace: pago
+
+commonAnnotations:
+  reloader.stakater.com/auto: "true"
+
+resources:
+  - ../../../base/backend
+
+
+configMapGenerator:
+  - name: pago-backend-configmap
+    envs:
+      - config/.env.config-map
+
+# Remove this if it is not necessary
+secretGenerator:
+  - name: pago-backend-secret
+    envs:
+      - config/.env.secret
+
+patches:
+  - path: patch.yml
+    target:
+      kind: Deployment
+      name: pago-backend

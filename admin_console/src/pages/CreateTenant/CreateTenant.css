@@ -1,0 +1,16 @@
+.create-tenant-form {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 80%;
+    margin: auto;
+}
+
+.create-tenant-form label {
+    margin-bottom: 4px;
+    width: 300px;
+}
+
+.create-tenant-form input {
+    margin-bottom: 8px;
+}

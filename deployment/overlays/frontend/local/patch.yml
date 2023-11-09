@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pago-frontend
+spec:
+  template:
+    spec:
+      containers:
+        - name: pago-frontend
+          image: docker.io/library/pago-frontend:latest
+          envFrom:
+            - configMapRef:
+                name: pago-frontend-configmap
+            - secretRef:
+                name: pago-frontend-secret
+          imagePullPolicy: IfNotPresent

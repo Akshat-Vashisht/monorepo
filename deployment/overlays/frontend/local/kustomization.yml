@@ -1,0 +1,28 @@
+generatorOptions:
+  disableNameSuffixHash: true
+
+namespace: pago
+
+commonAnnotations:
+  reloader.stakater.com/auto: "true"
+
+resources:
+  - ../../../base/frontend
+
+
+configMapGenerator:
+  - name: pago-frontend-configmap
+    envs:
+      - config/.env.config-map
+
+# Remove this if it is not necessary
+secretGenerator:
+  - name: pago-frontend-secret
+    envs:
+      - config/.env.secret
+
+patches:
+  - path: patch.yml
+    target:
+      kind: Deployment
+      name: pago-frontend

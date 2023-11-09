@@ -1,0 +1,57 @@
+.navigation-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    background-color: #041F4C;
+}
+
+.navigation-container a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-info {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.nav-page-name {
+    flex-grow: 1;
+    font-size: 32px;
+    color: white;
+    font-family: 'Playfair Display';
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.nav-buttons a {
+    margin: 0 12px;
+}
+
+.navbar {
+  display: flex;
+  gap: 1rem;
+  flex-grow: 1;
+  font-size: 16px;
+  align-items: center;
+} 
+
+.nav-and-search {
+    display: flex;
+}
+
+.nav-and-search input {
+    width: 100%;
+}
+
+.nav-buttons span {
+    display: flex;
+    align-items: center;
+}
+
+.nav-buttons svg {
+    margin-right: 8px;
+}

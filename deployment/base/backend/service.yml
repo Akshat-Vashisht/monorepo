@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: pago-backend-service
+  namespace: pago
+  annotations:
+    beta.cloud.google.com/backend-config: '{"ports": {"3001":"http-service-backendconfig"}}'
+spec:
+  ports:
+    - name: http
+      port: 3001
+      targetPort: 3001
+  selector:
+    app: pago-backend
+  type: NodePort

@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pago-backend
+  namespace: pago
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pago-backend
+  template:
+    metadata:
+      labels:
+        app: pago-backend
+    spec:
+      terminationGracePeriodSeconds: 0
+      containers:
+        - name: pago-backend
+          image: pago-backend:latest
+          ports:
+            - containerPort: 3001
+              protocol: TCP
+          resources:
+            limits:
+              memory: 128Mi
+            requests:
+              memory: 64Mi
+          imagePullPolicy: Always
+      restartPolicy: Always
