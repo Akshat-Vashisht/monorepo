@@ -1,0 +1,22 @@
+.search-container {
+    position: relative;
+    min-width: 328px;
+}
+
+.search-icon {
+    position: absolute;
+}
+
+svg#search {
+    position: absolute;
+
+    top: 13px;
+    left: 12px;
+}
+
+.search-input {
+    padding-left: 32px;
+    height: 42px;
+    border: 1px solid #75B2E2;
+    border-radius: 0;
+}

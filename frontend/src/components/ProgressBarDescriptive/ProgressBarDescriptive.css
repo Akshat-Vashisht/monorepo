@@ -1,0 +1,42 @@
+.pbd-container {
+
+    padding: 12px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.pbd-border {
+    border-radius: 3px;
+    border-color: lightblue;
+    border-style: solid;
+
+}
+.pbd-text {
+    display: flex;
+    align-items: center;
+    color: darkblue;
+    font-weight: 700;
+    font-size: 24px;
+    width: 25%;
+    word-wrap: break-word;
+    line-height: 28px;
+    padding: 16px;
+}
+
+.pbd-help {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    justify-content: center;
+    text-decoration: underline;
+    text-align: center;
+    padding: 16px;
+}
+
+.pbd-help:hover {
+    cursor: pointer;
+}
+
+.pbd-help-link {
+    font-size: 12px;
+}

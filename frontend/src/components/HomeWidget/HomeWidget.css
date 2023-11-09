@@ -1,0 +1,38 @@
+.hw-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: auto;
+    width: 23%;
+}
+
+.hw-container:hover {
+    cursor: pointer;
+}
+
+.hw-children {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hw-main-text {
+    color: #041F4C;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.hw-sub-text {
+    color: #041F4C;
+    font-size: 14px;
+    word-wrap: break-word;
+    text-align: center;
+    line-height: 18px;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 4px;
+    font-family: "Work Sans", sans-serif;
+}

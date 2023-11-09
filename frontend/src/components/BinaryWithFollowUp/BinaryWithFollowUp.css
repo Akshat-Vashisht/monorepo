@@ -1,0 +1,17 @@
+.binary-with-follow-up-container {
+    display: flex;
+}
+
+.bwfu-option {
+    margin-right: 12px;
+    background-color: lightgray;
+    padding: 4px 8px;
+}
+
+.bwfu-option:hover {
+    cursor: pointer;
+}
+
+.bwfu-option-active {
+    background-color: darkgray;
+}

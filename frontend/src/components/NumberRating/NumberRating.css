@@ -1,0 +1,28 @@
+.choice-list-container {
+    display: flex;
+}
+
+.choice-list-hint {
+    display: flex;
+    align-items: center;
+    margin: 0 12px;
+    width: 200px;
+}
+
+.choice-list-option {
+    display: flex;
+    justify-content: center;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    padding: 8px;
+    width: 20px;
+    margin: 0 8px;
+}
+
+.choice-list-option:hover {
+    cursor: pointer;
+}
+
+.choice-list-option-active {
+    background-color: darkgray;
+}

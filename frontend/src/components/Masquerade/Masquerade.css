@@ -1,0 +1,7 @@
+.masquerade-container {
+    border-top: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: auto;
+}

@@ -1,0 +1,20 @@
+.merit-increase-editor-row {
+    display: flex;
+}
+
+.merit-increase-editor-cell {
+    background: lightgray;
+    border-radius: 5px;
+    padding: 8px 24px;
+    width: 100px;
+    margin-right: 24px;
+    margin-bottom: 8px;
+}
+
+.merit-increase-setting-modal-row {
+    display: flex;
+}
+
+.merit-increase-setting-modal-input {
+    margin: 8px;
+}
